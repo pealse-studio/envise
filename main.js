@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+const { readFileSync } = require('fs');
 
 class Envise {
     #variables;
